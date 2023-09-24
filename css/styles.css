@@ -16,8 +16,51 @@ h1{
     
 }
 
+#features{
+    padding: 7% 15%;
+    /* background-color: #fff;
+    position: relative;
+    height: 400px;
+    z-index: 1;
+    text-align: center; */
+}
+
+#features h3{
+    line-height: 3;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-box{
+    text-align: center;
+}
+
+.feature-box h3{
+    line-height: 1;
+}
+.feature-box p{
+    padding: 4.5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+
+#testimonials{
+    background-color: #ef8172;
+    /* margin-top: 100px; */
+}
+
 .container-fullwidth{
-    padding: 10% 15%;
+    padding: 100px 15% 10% 15%;
+    margin-bottom: 0;
 }
 
 /*  Navigation Bar */
@@ -38,10 +81,15 @@ h1{
     font-size: 1.2rem;
 }
 
+.for-image-height{
+    height: 450px;
+}
+
 .title-image{
-    width: 60%;
-    margin-left: 50px;
+    width: 50%;
+    margin-left: 70px;
     transform: rotate(25deg);
+    
 }
 
 /* Download Buttons */
