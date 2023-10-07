@@ -1,11 +1,23 @@
 body{
-    font-family: 'Montserrat', sans-serif; 
-    
+    font-family: 'Montserrat', sans-serif;  
 }
 
 h1{
     font-family: 'Montserrat';
     font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h3{
+    line-height: 3;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-size: 3rem;
     line-height: 1.5;
     font-weight: bold;
 }
@@ -18,17 +30,32 @@ h1{
 
 #features{
     padding: 7% 15%;
-    /* background-color: #fff;
-    position: relative;
-    height: 400px;
-    z-index: 1;
-    text-align: center; */
 }
 
-#features h3{
-    line-height: 3;
-    font-size: 1.5rem;
-    font-weight: bold;
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;¡
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
 }
 
 .feature-box{
@@ -52,14 +79,8 @@ h1{
 }
 
 
-
-#testimonials{
-    background-color: #ef8172;
-    /* margin-top: 100px; */
-}
-
 .container-fullwidth{
-    padding: 100px 15% 10% 15%;
+    padding: 120px 15% 10% 15%;
     margin-bottom: 0;
 }
 
@@ -86,7 +107,7 @@ h1{
 }
 
 .title-image{
-    width: 50%;
+    width: 60%;
     margin-left: 70px;
     transform: rotate(25deg);
     
