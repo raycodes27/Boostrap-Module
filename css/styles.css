@@ -22,100 +22,13 @@ h2{
     font-weight: bold;
 }
 
+/* TITLE SECTION */
+
 #title{
     background-color: #ff4c68;
     color: white;
 }
 
-#features{
-    padding: 100px 15%;
-    background-color: #fff;
-    position: relative;
-    
-}
-
-#testimonials{
-    text-align: center;
-    background-color: #ef8172;
-    color: #fff;
-}
-
-#press{
-    text-align: center;
-    background-color: #ef8172;
-    padding-bottom: 3%;
-}
-
-#pricing{
-    padding: 100px;
-    text-align: center;
-}
-
-#cta{
-    padding: 100px;
-    text-align: center;
-    background-color: #ef8172;
-    color: #fff;
-}
-
-#footer{
-    padding: 100px;
-    text-align: center;
-    background-color: #fff;
-    color: gray;
-}
-
-.social-network{
-    color: black;
-}
-
-.social-network i{
-    margin: 0 10px 20px;
-}
-
-
-.last-price{
-    line-height: 0.87;
-}
-.card-dog{
-    margin: 10px;
-}
-.carousel-item{
-    padding: 7% 15%;
-}
-.testimonial-image{
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
-}
-.out-row{
-    margin-top: 20px;
-}
-
-.press-logo{
-    width: 15%;
-    margin: 20px 20px 50px;
-}
-
-.feature-box{
-    text-align: center;
-}
-
-.feature-box h3{
-    line-height: 1;
-}
-.feature-box p{
-    padding: 4.5%;
-}
-
-.icon{
-    color: #ef8172;
-    margin-bottom: 1rem;
-}
-
-.icon:hover{
-    color: #ff4c68;
-}
 .container-fullwidth{
     padding: 3% 15% 7%;
     margin-bottom: 0;
@@ -138,10 +51,6 @@ h2{
     font-size: 1.2rem;
 }
 
-/* .for-image-height{
-    height: 450px;
-} */
-
 .title-image{
     width: 25%;
     right: 25%;
@@ -149,7 +58,88 @@ h2{
     position: absolute;
 }
 
-/* Download Buttons */
+/* FEATURES SECTION */
+
+#features{
+    padding: 100px 15%;
+    background-color: #fff;
+    position: relative;
+    
+}
+.feature-box{
+    text-align: center;
+}
+
+.feature-box h3{
+    line-height: 1;
+}
+.feature-box p{
+    padding: 4.5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* TESTIMONIALS SECTION */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* PRESS SECTION */
+
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+/* PRICING SECTION */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.last-price{
+    line-height: 0.87;
+}
+.card-dog{
+    margin: 10px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.out-row{
+    margin-top: 20px;
+}
+
+/* CTA SECTION */
+
+#cta{
+    padding: 100px;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
 
 .download-button{
     margin: 5% 3% 5% 0;
@@ -158,6 +148,24 @@ h2{
 .cta-bottom{
     margin-bottom: 0;
 }
+
+/* FOOTER SECTION */
+
+#footer{
+    padding: 100px;
+    text-align: center;
+    background-color: #fff;
+    color: gray;
+}
+
+.social-network{
+    color: black;
+}
+
+.social-network i{
+    margin: 0 10px 20px;
+}
+
 
 @media (max-width: 1110px){
 
